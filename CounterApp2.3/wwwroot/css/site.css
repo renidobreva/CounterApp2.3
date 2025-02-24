@@ -1,0 +1,109 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+/* Глобални стилове */
+body {
+    background: #eef1f5;
+    font-family: 'Inter', sans-serif;
+    color: #333;
+}
+
+/* Хедър */
+.header {
+    background: #2c3e50;
+    color: white;
+    padding: 10px 0;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-link {
+    color: white;
+    margin-left: 15px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+    .nav-link:hover {
+        text-decoration: underline;
+    }
+
+/* Брояч */
+.counter-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.counter-card {
+    background: white;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    max-width: 400px;
+    transition: transform 0.3s ease-in-out;
+}
+
+    .counter-card:hover {
+        transform: translateY(-5px);
+    }
+
+.counter-number {
+    font-size: 4rem;
+    font-weight: bold;
+    color: #3498db;
+    margin: 10px 0;
+}
+
+.counter-text {
+    font-size: 1rem;
+    color: #666;
+}
+
+.refresh-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: white;
+    background: #3498db;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background 0.3s ease-in-out;
+}
+
+    .refresh-button:hover {
+        background: #217dbb;
+    }
+
+/* Футър */
+.footer {
+    background: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 50px;
+}

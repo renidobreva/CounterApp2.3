@@ -1,0 +1,12 @@
+﻿@{
+    ViewData["Title"] = "Посещения";
+}
+
+<div class="counter-container">
+    <div class="counter-card">
+        <h2>Вашите посещения</h2>
+        <p class="counter-number">@ViewBag.VisitCount</p>
+        <p class="counter-text">Всеки път, когато посетите страницата, броят се увеличава.</p>
+        <a href="/" class="refresh-button">🔄 Обнови страницата</a>
+    </div>
+</div>
